@@ -19,6 +19,23 @@ contract HelloWorld {
 }
 ```
 
+
+## How is ICL Different from Guardrails?
+
+Guardrails and system prompts are *suggestions* an LLM can ignore or misinterpret. ICL contracts are **mathematically enforced walls** — verified before execution, impossible to bypass.
+
+| | System Prompts | Guardrails | **ICL** |
+|---|---|---|---|
+| **What it is** | Natural language instructions | Runtime filters | Formal, verified contracts |
+| **Enforcement** | LLM interprets (may ignore) | Probabilistic | **Mathematical proof** |
+| **Analogy** | "Please don't" | Smoke detector | **Fireproof wall** |
+
+**Where ICL is used:** Trading agents that CANNOT exceed limits · Surgical robots that MUST stop if sensors fail · Drones that CANNOT enter restricted airspace · Code deploy agents that CANNOT ship without passing tests
+
+> See the full [ICL vs Guardrails — 50+ real-world examples](https://icl-system.github.io/ICL-Docs/use-cases.html) for when (and when not) to use ICL.
+
+
+
 ## Repositories
 
 | Repository | Description |
