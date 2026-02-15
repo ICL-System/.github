@@ -1,5 +1,10 @@
 # ICL — Intent Contract Language
 
+[![crates.io](https://img.shields.io/crates/v/icl-runtime.svg)](https://crates.io/crates/icl-runtime)
+[![npm](https://img.shields.io/npm/v/icl-runtime.svg)](https://www.npmjs.com/package/icl-runtime)
+[![PyPI](https://img.shields.io/pypi/v/icl-runtime.svg)](https://pypi.org/project/icl-runtime/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ICL-System/ICL-Runtime/blob/main/LICENSE)
+
 > A formal, deterministic, language-agnostic specification language for intent contracts.
 
 ## What is ICL?
